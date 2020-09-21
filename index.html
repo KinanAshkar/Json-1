@@ -1,0 +1,29 @@
+<!-- Parse And Stringify With JavaScript: -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parse And Stringify</title>
+</head>
+<body>
+    <script>
+        // Exchange From Json To Object:
+        let myJsonObject = '{ "username": "kinan", "age": 36 }';
+        let myJsObject = JSON.parse(myJsonObject);
+        console.log(myJsonObject);
+        console.log(typeof myJsonObject);
+        
+        console.log(myJsObject);
+        console.log(typeof myJsObject); 
+        // Exchange From Object To Json:
+        let myJsObject = {username: "kinan", age: 36};
+        let myJsonObject = JSON.stringify(myJsObject);
+        console.log(myJsObject);
+        console.log(typeof myJsObject);
+
+        console.log(myJsonObject);
+        console.log(typeof myJsonObject);
+    </script>
+</body>
+</html>
